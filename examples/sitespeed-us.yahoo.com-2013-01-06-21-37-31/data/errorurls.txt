@@ -1,7 +1,0 @@
-Unknown error,http://us.yahoo.com/_ylt=AtUyOR3tSS_rJX4UnudvilqbvZx4/SIG=11qgjaim1/EXP=1357591055/**http%3A//finance.yahoo.com/q%3Fs=%5EIXIC
-403,http://us.yahoo.com/_ylt=Au.mmzy5XKnRGkRIzBl9l8.bvZx4/SIG=13gj90045/EXP=1357591055/**http%3A//yahoo.match.com/en-us/partner/yahoo/97922.html%3FTrackingID=527147%26BannerID=1100926
-Unknown error,http://us.yahoo.com/_ylt=Aj.ax8l.o_A1OMwDtIFMc5GbvZx4/SIG=11p2sm87d/EXP=1357591055/**http%3A//finance.yahoo.com/q%3Fs=%5EDJI
-Unknown error,http://us.yahoo.com/_ylt=AiCFa1nrlnVkpQNuAJ._lFWbvZx4/SIG=11q1knfh4/EXP=1357591055/**http%3A//finance.yahoo.com/q%3Fs=%5EGSPC
-403,http://us.yahoo.com/_ylt=Ao1ZG8yFZrDUqEQcY9bCj9.bvZx4/SIG=12hlenisf/EXP=1357591055/**http%3A//yahoo.match.com/%3Ftrackingid=526100%26bannerid=673168
-403,http://us.yahoo.com/_ylt=Al1mm1M0fLQyUJvPJsI3DVebvZx4/SIG=12tc1e293/EXP=1357591055/**http%3A//jobsearch.monster.com/search/%3Fcy=us%26WT.mc_n=yta_trough_jsrtest
-403,http://us.yahoo.com/_ylt=AjhhRtngVeJAMA0K_fXbwJ.bvZx4/SIG=12j68bpr9/EXP=1357591055/**http%3A//jobsearch.monster.com/jobs/%3Fcy=us%26WT.mc_n=yta_footer

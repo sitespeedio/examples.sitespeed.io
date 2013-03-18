@@ -1,8 +1,0 @@
-http://www.google.com/
-http://www.google.com/intl/sv/about.html
-http://www.google.com/preferences?hl=sv
-https://www.google.com/calendar?tab=wc
-http://www.google.com/advanced_search?hl=sv&authuser=0
-http://www.google.com/intl/sv/ads/
-http://www.google.com/language_tools?hl=sv&authuser=0
-http://www.google.com/intl/sv/policies/
