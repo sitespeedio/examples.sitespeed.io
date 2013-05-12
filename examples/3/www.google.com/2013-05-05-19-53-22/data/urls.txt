@@ -1,0 +1,9 @@
+http://www.google.com/
+http://www.google.com/intl/sv/ads/
+http://www.google.com/preferences?hl=sv
+http://www.google.com/intl/sv/policies/
+http://www.google.com/search?q=S%C3%B8ren+Kierkegaard&oi=ddle&ct=sren_kierkegaards_200th_birthday-1443005-hp
+https://www.google.com/calendar?tab=wc
+http://www.google.com/intl/sv/about.html
+http://www.google.com/advanced_search?hl=sv&authuser=0
+http://www.google.com/language_tools?hl=sv&authuser=0
