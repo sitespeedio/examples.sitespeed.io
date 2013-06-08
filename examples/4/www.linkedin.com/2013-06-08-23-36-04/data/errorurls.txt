@@ -1,0 +1,5 @@
+frontend-error,http://www.linkedin.com/static?key=privacy_policy&trk=hb_ft_priv
+frontend-error,http://www.linkedin.com/static?key=user_agreement&trk=hb_ft_userag
+frontend-error,http://www.linkedin.com/static?key=copyright_policy&trk=hb_ft_copy
+frontend-error,http://www.linkedin.com/static?key=user_agreement
+frontend-error,http://www.linkedin.com/static?key=privacy_policy
