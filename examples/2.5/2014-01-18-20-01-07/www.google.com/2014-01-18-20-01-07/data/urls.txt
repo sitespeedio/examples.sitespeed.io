@@ -1,0 +1,12 @@
+http://www.google.com/
+http://www.google.com/intl/sv/policies/?fg=1
+http://www.google.com/setprefs?suggon=2&prev=https://www.google.se/%3Fgws_rd%3Dcr%26ei%3Ddc_aUtGFO4rf4QSzmIDoBw&sig=0_Ft1THgIjNDKW-3ZMDeDv-w3D0yI%3D
+http://www.google.com/intl/sv/ads/?fg=1
+http://www.google.com/services/?fg=1
+http://www.google.com/advanced_search?hl=sv&fg=1
+http://www.google.com/support/websearch/bin/answer.py?answer=186645&form=bb&hl=sv
+http://www.google.com/intl/sv/policies/technologies/cookies/
+http://www.google.com/intl/sv/about.html?fg=1
+http://www.google.com/history?hl=sv&fg=1
+http://www.google.com/webhp?tab=ww&ei=ds_aUt1ogdrjBP6LgGg&ved=0CBIQ1S4
+https://www.google.com/calendar?tab=wc
