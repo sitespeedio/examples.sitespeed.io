@@ -1,0 +1,6 @@
+http://www.sitespeed.io
+http://www.sitespeed.io/release-notes/2.5/
+http://www.sitespeed.io/faq/
+http://www.sitespeed.io/example/
+http://www.sitespeed.io/documentation/
+http://www.sitespeed.io/rules/
