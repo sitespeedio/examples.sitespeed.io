@@ -1,1 +1,0 @@
-2014-01-19 20:51:34.029 phantomjs[13107:507] *** WARNING: Method userSpaceScaleFactor in class NSView is deprecated on 10.7 and later. It should not be used in new applications. Use convertRectToBacking: instead. 
