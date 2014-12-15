@@ -1,0 +1,167 @@
+2014-12-15T21:16:30.949Z - info: [sitespeed] OS: darwin 14.0.0 sitespeed:3.0.0-beta-10  phantomJs:1.9.8 java:java version "1.7.0_71" browsertime:0.8.17
+2014-12-15T21:16:39.929Z - info: [sitespeed] Will analyze 36 pages
+2014-12-15T21:16:42.007Z - info: [sitespeed] Running YSlow for http://www.cybercom.com
+2014-12-15T21:16:42.009Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/interim-report-july--september-2014/
+2014-12-15T21:16:42.011Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Corporate-governance/Board/
+2014-12-15T21:16:42.012Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/da/Denmark/
+2014-12-15T21:16:42.014Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/Legal-notice/Website-terms-and-conditions/
+2014-12-15T21:16:49.767Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Financial-information/Subscribe/
+2014-12-15T21:16:49.810Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Financial-information/
+2014-12-15T21:16:50.344Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/win-by-opening-up-in-the-right-way/
+2014-12-15T21:16:52.502Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/pl/Poland/
+2014-12-15T21:16:53.182Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/Legal-notice/Privacy-policy/
+2014-12-15T21:16:55.121Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/What-we-do/Connectivity-Management/Mobile-Network-Quality/Customer-Experience-Management/
+2014-12-15T21:16:55.602Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/Cases-and-clients/SF-BIO-app/
+2014-12-15T21:16:57.795Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/About-the-Group/
+2014-12-15T21:16:58.670Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Press-Media/Cybercom-visited-UN/
+2014-12-15T21:16:58.882Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/Legal-notice/Cookies/
+2014-12-15T21:17:01.486Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-provides-digital-signature-services-to-swedish-tax-agency/
+2014-12-15T21:17:03.969Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-launches-upphandlingskollen/
+2014-12-15T21:17:04.132Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/About-the-Group/seasons-greetings-2014/
+2014-12-15T21:17:04.152Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Events-and-seminars/
+2014-12-15T21:17:06.372Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Contact/
+2014-12-15T21:17:07.130Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/visit-cybercom-at-cairo-ict-2014/
+2014-12-15T21:17:10.620Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/virtual-reality-in-industry/
+2014-12-15T21:17:11.615Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/sv/
+2014-12-15T21:17:11.747Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/the-population-register-centre-selected-cybercom/
+2014-12-15T21:17:12.478Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Blogs/
+2014-12-15T21:17:12.586Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Press-Media/
+2014-12-15T21:17:18.337Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/Cases-and-clients/
+2014-12-15T21:17:18.624Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/Cases-and-clients/Verisure-internet-of-things/
+2014-12-15T21:17:19.433Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/What-we-do/
+2014-12-15T21:17:22.135Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/About-the-Group/Cybercom-the-movie/
+2014-12-15T21:17:22.215Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Blogs/ivars-perspective-on-enterprise-java/introduction/
+2014-12-15T21:17:24.223Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Corporate-governance/
+2014-12-15T21:17:26.820Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/fi/Suomi/
+2014-12-15T21:17:29.443Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Financial-information/The-Share/
+2014-12-15T21:17:29.569Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/search/
+2014-12-15T21:17:29.976Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/
+2014-12-15T21:17:38.100Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com chrome
+2014-12-15T21:17:38.100Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/interim-report-july--september-2014/ chrome
+2014-12-15T21:17:38.100Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Corporate-governance/Board/ chrome
+2014-12-15T21:17:38.101Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/da/Denmark/ chrome
+2014-12-15T21:17:38.101Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/Legal-notice/Website-terms-and-conditions/ chrome
+2014-12-15T21:17:38.101Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Financial-information/Subscribe/ chrome
+2014-12-15T21:17:38.101Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Financial-information/ chrome
+2014-12-15T21:17:38.101Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/win-by-opening-up-in-the-right-way/ chrome
+2014-12-15T21:17:38.101Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/pl/Poland/ chrome
+2014-12-15T21:17:38.101Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/Legal-notice/Privacy-policy/ chrome
+2014-12-15T21:17:38.101Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/What-we-do/Connectivity-Management/Mobile-Network-Quality/Customer-Experience-Management/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/Cases-and-clients/SF-BIO-app/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/About-the-Group/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Press-Media/Cybercom-visited-UN/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/Legal-notice/Cookies/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-provides-digital-signature-services-to-swedish-tax-agency/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-launches-upphandlingskollen/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/About-the-Group/seasons-greetings-2014/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Events-and-seminars/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Contact/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/visit-cybercom-at-cairo-ict-2014/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/virtual-reality-in-industry/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/sv/ chrome
+2014-12-15T21:17:38.102Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/the-population-register-centre-selected-cybercom/ chrome
+2014-12-15T21:17:38.103Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Blogs/ chrome
+2014-12-15T21:17:38.103Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Press-Media/ chrome
+2014-12-15T21:17:38.103Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/Cases-and-clients/ chrome
+2014-12-15T21:17:38.104Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/Cases-and-clients/Verisure-internet-of-things/ chrome
+2014-12-15T21:17:38.104Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/What-we-do/ chrome
+2014-12-15T21:17:38.104Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/About-the-Group/Cybercom-the-movie/ chrome
+2014-12-15T21:17:38.104Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Blogs/ivars-perspective-on-enterprise-java/introduction/ chrome
+2014-12-15T21:17:38.104Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Corporate-governance/ chrome
+2014-12-15T21:17:38.104Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/fi/Suomi/ chrome
+2014-12-15T21:17:38.104Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Financial-information/The-Share/ chrome
+2014-12-15T21:17:38.104Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/search/ chrome
+2014-12-15T21:17:38.104Z - info: [sitespeed] Queueing browsertime for http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/ chrome
+2014-12-15T21:17:38.105Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com
+2014-12-15T21:17:50.558Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/interim-report-july--september-2014/
+2014-12-15T21:17:57.860Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Corporate-governance/Board/
+2014-12-15T21:18:07.201Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/da/Denmark/
+2014-12-15T21:18:15.901Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/Legal-notice/Website-terms-and-conditions/
+2014-12-15T21:18:24.682Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Financial-information/Subscribe/
+2014-12-15T21:18:33.415Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Financial-information/
+2014-12-15T21:18:41.900Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/win-by-opening-up-in-the-right-way/
+2014-12-15T21:18:57.593Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/pl/Poland/
+2014-12-15T21:19:06.503Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/Legal-notice/Privacy-policy/
+2014-12-15T21:19:14.227Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/What-we-do/Connectivity-Management/Mobile-Network-Quality/Customer-Experience-Management/
+2014-12-15T21:19:23.029Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/Cases-and-clients/SF-BIO-app/
+2014-12-15T21:19:31.562Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/About-the-Group/
+2014-12-15T21:19:40.442Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Press-Media/Cybercom-visited-UN/
+2014-12-15T21:19:50.156Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/Legal-notice/Cookies/
+2014-12-15T21:19:59.952Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-provides-digital-signature-services-to-swedish-tax-agency/
+2014-12-15T21:20:07.801Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-launches-upphandlingskollen/
+2014-12-15T21:20:19.187Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/About-the-Group/seasons-greetings-2014/
+2014-12-15T21:20:30.371Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Events-and-seminars/
+2014-12-15T21:20:38.178Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Contact/
+2014-12-15T21:20:48.810Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/visit-cybercom-at-cairo-ict-2014/
+2014-12-15T21:20:58.092Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/virtual-reality-in-industry/
+2014-12-15T21:21:15.504Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/sv/
+2014-12-15T21:21:32.153Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/the-population-register-centre-selected-cybercom/
+2014-12-15T21:21:43.616Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Blogs/
+2014-12-15T21:21:51.584Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Press-Media/
+2014-12-15T21:21:59.845Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/Cases-and-clients/
+2014-12-15T21:22:14.488Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/Cases-and-clients/Verisure-internet-of-things/
+2014-12-15T21:22:25.240Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/What-we-do/
+2014-12-15T21:22:33.316Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/About-the-Group/Cybercom-the-movie/
+2014-12-15T21:22:41.363Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Blogs/ivars-perspective-on-enterprise-java/introduction/
+2014-12-15T21:22:57.515Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Corporate-governance/
+2014-12-15T21:23:05.148Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/fi/Suomi/
+2014-12-15T21:23:17.857Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Financial-information/The-Share/
+2014-12-15T21:23:28.321Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/search/
+2014-12-15T21:23:37.180Z - info: [sitespeed] Running browsertime for chrome http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/
+2014-12-15T21:23:44.428Z - error: [sitespeed] Could not fetch data for aggregator:undefined err:TypeError: Object.keys called on non-object
+2014-12-15T21:23:44.430Z - info: [sitespeed] Missing timings in the HAR
+2014-12-15T21:23:44.431Z - info: [sitespeed] Missing timings in the HAR
+2014-12-15T21:23:44.605Z - error: [sitespeed] Could not fetch data for aggregator:undefined err:TypeError: Object.keys called on non-object
+2014-12-15T21:23:44.606Z - info: [sitespeed] Missing timings in the HAR
+2014-12-15T21:23:44.607Z - info: [sitespeed] Missing timings in the HAR
+2014-12-15T21:23:44.607Z - info: [sitespeed] Missing timings in the HAR
+2014-12-15T21:23:44.657Z - error: [sitespeed] Could not fetch data for aggregator:undefined err:TypeError: Object.keys called on non-object
+2014-12-15T21:23:44.658Z - info: [sitespeed] Missing timings in the HAR
+2014-12-15T21:23:44.658Z - info: [sitespeed] Missing timings in the HAR
+2014-12-15T21:23:44.658Z - info: [sitespeed] Missing timings in the HAR
+2014-12-15T21:23:44.699Z - info: [sitespeed] Done analyzing urls
+2014-12-15T21:23:44.807Z - info: [sitespeed] Wrote file assets.html
+2014-12-15T21:23:44.807Z - info: [sitespeed] Wrote file domains.html
+2014-12-15T21:23:44.808Z - info: [sitespeed] Wrote file hotlist.html
+2014-12-15T21:23:44.808Z - info: [sitespeed] Wrote file errors.html
+2014-12-15T21:23:44.808Z - info: [sitespeed] Wrote file index.html
+2014-12-15T21:23:44.810Z - info: [sitespeed] Wrote file pages.html
+2014-12-15T21:23:44.810Z - info: [sitespeed] Wrote file www.cybercom.com-da-Denmark-.html
+2014-12-15T21:23:44.810Z - info: [sitespeed] Wrote file detailed-site-summary.html
+2014-12-15T21:23:44.811Z - info: [sitespeed] Wrote file rules.html
+2014-12-15T21:23:44.812Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Corporate-governance-Board-.html
+2014-12-15T21:23:44.812Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Press-Media-Press-releases-interim-report-july--september-2014-.html
+2014-12-15T21:23:44.812Z - info: [sitespeed] Wrote file www.cybercom.com-Legal-notice-Website-terms-and-conditions-.html
+2014-12-15T21:23:44.812Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Financial-information-.html
+2014-12-15T21:23:44.812Z - info: [sitespeed] Wrote file www.cybercom.com-pl-Poland-.html
+2014-12-15T21:23:44.812Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Blogs-the-connected-world-win-by-opening-up-in-the-right-way-.html
+2014-12-15T21:23:44.812Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Financial-information-Subscribe-.html
+2014-12-15T21:23:44.812Z - info: [sitespeed] Wrote file www.cybercom.com.html
+2014-12-15T21:23:44.812Z - info: [sitespeed] Wrote file www.cybercom.com-Legal-notice-Cookies-.html
+2014-12-15T21:23:44.812Z - info: [sitespeed] Wrote file www.cybercom.com-Legal-notice-Privacy-policy-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-About-the-Group-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-What-we-do-Connectivity-Management-Mobile-Network-Quality-Customer-Experience-Management-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-Cases-and-clients-SF-BIO-app-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Press-Media-Press-releases-cybercom-launches-upphandlingskollen-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Events-and-seminars-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Press-Media-Cybercom-visited-UN-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Press-Media-Press-releases-cybercom-provides-digital-signature-services-to-swedish-tax-agency-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Contact-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-About-the-Group-seasons-greetings-2014-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Press-Media-Press-releases-visit-cybercom-at-cairo-ict-2014-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Press-Media-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Blogs-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-sv-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-What-we-do-.html
+2014-12-15T21:23:44.813Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Press-Media-Press-releases-the-population-register-centre-selected-cybercom-.html
+2014-12-15T21:23:44.814Z - info: [sitespeed] Wrote file www.cybercom.com-Cases-and-clients-Verisure-internet-of-things-.html
+2014-12-15T21:23:44.814Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-About-the-Group-Cybercom-the-movie-.html
+2014-12-15T21:23:44.814Z - info: [sitespeed] Wrote file www.cybercom.com-Cases-and-clients-.html
+2014-12-15T21:23:44.814Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Blogs-the-connected-world-virtual-reality-in-industry-.html
+2014-12-15T21:23:44.814Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Blogs-ivars-perspective-on-enterprise-java-introduction-.html
+2014-12-15T21:23:44.814Z - info: [sitespeed] Wrote file www.cybercom.com-fi-Suomi-.html
+2014-12-15T21:23:44.814Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Corporate-governance-.html
+2014-12-15T21:23:44.814Z - info: [sitespeed] Wrote file www.cybercom.com-search-.html
+2014-12-15T21:23:44.814Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Press-Media-Press-releases-.html
+2014-12-15T21:23:44.814Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Financial-information-The-Share-.html
+2014-12-15T21:23:44.824Z - info: [sitespeed] Wrote results to /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30

@@ -1,0 +1,2290 @@
+2014-12-15T21:16:40.084Z - info: [browsermobproxy] stdout:Unable to find conf/bmp-logging.properties. Using default logging configuration.
+
+2014-12-15T21:16:41.272Z - error: [browsermobproxy] stderr:INFO 12/15 21:16:41 n.l.b.p.Main         - Starting BrowserMob Proxy version 2.0-beta-10-SNAPSHOT
+
+2014-12-15T21:16:41.332Z - error: [browsermobproxy] stderr:INFO 12/15 21:16:41 o.e.j.u.log          - jetty-0.0.1-SNAPSHOT
+
+2014-12-15T21:16:41.370Z - error: [browsermobproxy] stderr:INFO 12/15 21:16:41 o.e.j.u.log          - started o.e.j.s.ServletContextHandler{/,null}
+
+2014-12-15T21:16:42.005Z - error: [browsermobproxy] stderr:INFO 12/15 21:16:42 o.e.j.u.log          - Started SelectChannelConnector@0.0.0.0:9092
+
+2014-12-15T21:17:38.466Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:38 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:17:38.468Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:38 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:17:38.469Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:38 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:17:38.470Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:38 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@7ddc1510
+
+2014-12-15T21:17:50.374Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:50 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:17:50.479Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:50 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:17:50.553Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:50 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:17:50.553Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:50 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@7ddc1510
+
+2014-12-15T21:17:50.561Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:50 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:17:50.561Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:50 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:17:50.562Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:50 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:17:50.562Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:50 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@7047db5e
+
+2014-12-15T21:17:55.272Z - error: [browsermobproxy] stderr:WARN 12/15 21:17:55 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:17:55.272Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:55 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:17:55.287Z - error: [browsermobproxy] stderr:WARN 12/15 21:17:55 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:17:55.288Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:55 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:17:55.288Z - error: [browsermobproxy] stderr:WARN 12/15 21:17:55 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:17:57.681Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:57 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:17:57.783Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:57 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:17:57.854Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:57 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:17:57.854Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:57 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@7047db5e
+
+2014-12-15T21:17:57.864Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:57 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:17:57.864Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:57 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:17:57.865Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:57 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:17:57.865Z - error: [browsermobproxy] stderr:INFO 12/15 21:17:57 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@275db386
+
+2014-12-15T21:18:07.027Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:07 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:18:07.131Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:07 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:07.198Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:07 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:18:07.198Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:07 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@275db386
+
+2014-12-15T21:18:07.205Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:07 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:18:07.205Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:07 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:18:07.206Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:07 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:07.206Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:07 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@4303152f
+
+2014-12-15T21:18:12.773Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:12 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:12.774Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:12 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:12.774Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:12 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:15.667Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:15 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:15.668Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:15 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:15.668Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:15 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=4059 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+WARN 12/15 21:18:15 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:15.668Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:15 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:18:15.737Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:15 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:18:15.842Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:15 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:15.898Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:15 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:18:15.898Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:15 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@4303152f
+
+2014-12-15T21:18:15.904Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:15 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:18:15.904Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:15 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:18:15.905Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:15 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:15.905Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:15 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@4f5dbe2e
+
+2014-12-15T21:18:18.847Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:18 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:18.847Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:18 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:18.847Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:18 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:21.882Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:21 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:21.882Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:21 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:18:21.886Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:21 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:21.886Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:21 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:21.886Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:21 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:24.526Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:24 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:18:24.630Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:24 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:24.679Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:24 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:18:24.679Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:24 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@4f5dbe2e
+
+2014-12-15T21:18:24.685Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:24 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:18:24.685Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:24 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:18:24.686Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:24 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:24.686Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:24 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@30818168
+
+2014-12-15T21:18:33.160Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:33 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:33.161Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:33 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+WARN 12/15 21:18:33 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:33.166Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:33 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:33.166Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:33 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:18:33.261Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:33 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:18:33.365Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:33 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:33.412Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:33 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:18:33.412Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:33 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@30818168
+
+2014-12-15T21:18:33.417Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:33 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:18:33.418Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:33 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:18:33.418Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:33 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:33.418Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:33 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@65d2530
+
+2014-12-15T21:18:36.354Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:36 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:36.354Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:36 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:36.355Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:36 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:39.128Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:39 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:39.128Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:39 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:18:39.128Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:39 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=2847 written=2612 for http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:18:39.135Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:39 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:39.135Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:39 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:39.135Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:39 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:18:41.744Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:41 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:18:41.848Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:41 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:41.896Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:41 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:18:41.896Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:41 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@65d2530
+
+2014-12-15T21:18:41.903Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:41 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:18:41.903Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:41 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:18:41.904Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:41 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+INFO 12/15 21:18:41 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@1b969687
+
+2014-12-15T21:18:44.846Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:44 n.l.b.p.j.u.Credent~ - Checking Resource aliases
+
+2014-12-15T21:18:44.959Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:44 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:18:44.960Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:44 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:18:46.438Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:46 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:50552
+
+2014-12-15T21:18:57.260Z - error: [browsermobproxy] stderr:WARN 12/15 21:18:57 n.l.b.p.ProxyServer  - Waited 5 seconds for requests to cease before returning HAR; giving up!
+
+2014-12-15T21:18:57.302Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:57 n.l.b.p.j.u.Threade~ - Stopping Acceptor [SSL: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=50552]]
+
+2014-12-15T21:18:57.407Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:57 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:50552
+
+2014-12-15T21:18:57.409Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:57 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:18:57.511Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:57 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:57.589Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:57 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:18:57.589Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:57 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@1b969687
+
+2014-12-15T21:18:57.595Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:57 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:18:57.596Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:57 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:18:57.596Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:57 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:18:57.596Z - error: [browsermobproxy] stderr:INFO 12/15 21:18:57 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@16691eb7
+
+2014-12-15T21:19:06.288Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:06 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:06.288Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:06 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:06.289Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:06 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=4059 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:06.293Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:06 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:06.293Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:06 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:19:06.358Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:06 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:19:06.460Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:06 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:06.500Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:06 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:19:06.500Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:06 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@16691eb7
+
+2014-12-15T21:19:06.506Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:06 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:19:06.506Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:06 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:19:06.507Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:06 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:06.507Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:06 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@66968759
+
+2014-12-15T21:19:10.089Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:10 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+WARN 12/15 21:19:10 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:10.089Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:10 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:19:10.089Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:10 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:10.089Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:10 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:11.597Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:11 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:11.597Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:11 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:11.597Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:11 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:14.081Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:14 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:19:14.186Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:14 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:14.224Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:14 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:19:14.224Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:14 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@66968759
+
+2014-12-15T21:19:14.230Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:14 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:19:14.230Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:14 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:19:14.231Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:14 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:14.231Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:14 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@7c4f31de
+
+2014-12-15T21:19:18.089Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:18 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:18.089Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:18 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:18.089Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:18 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:22.883Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:22 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:19:22.987Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:22 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:23.025Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:23 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:19:23.025Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:23 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@7c4f31de
+
+2014-12-15T21:19:23.031Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:23 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:19:23.032Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:23 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:19:23.033Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:23 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:23.033Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:23 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@65c36ecc
+
+2014-12-15T21:19:25.824Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:25 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:25.825Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:25 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:25.825Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:25 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:31.403Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:31 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:19:31.505Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:31 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:31.554Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:31 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:19:31.554Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:31 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@65c36ecc
+
+2014-12-15T21:19:31.565Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:31 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:19:31.565Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:31 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:19:31.565Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:31 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:31.566Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:31 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@223844a8
+
+2014-12-15T21:19:37.772Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:37 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:37.772Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:37 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:37.772Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:37 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=4059 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:40.306Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:40 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:19:40.408Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:40 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:40.439Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:40 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:19:40.439Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:40 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@223844a8
+
+2014-12-15T21:19:40.445Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:40 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:19:40.445Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:40 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:19:40.446Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:40 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:40.446Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:40 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@201f3c34
+
+2014-12-15T21:19:46.647Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:46 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:46.647Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:46 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:46.647Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:46 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=2611 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:46.656Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:46 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:46.656Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:46 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:19:49.920Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:49 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:49.921Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:49 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:19:49.921Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:49 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=2847 written=2612 for http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:19:49.935Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:49 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:49.935Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:49 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:49.936Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:49 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=10803 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:50.012Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:50 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:19:50.116Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:50 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:50.153Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:50 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:19:50.153Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:50 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@201f3c34
+
+2014-12-15T21:19:50.159Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:50 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:19:50.159Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:50 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:19:50.160Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:50 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:50.160Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:50 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@4fbb8d66
+
+2014-12-15T21:19:56.891Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:56 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:56.891Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:56 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:56.892Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:56 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=2611 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:56.902Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:56 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:56.902Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:56 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:19:59.760Z - error: [browsermobproxy] stderr:WARN 12/15 21:19:59 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:19:59.761Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:59 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+WARN 12/15 21:19:59 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:19:59.809Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:59 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:19:59.914Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:59 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:59.949Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:59 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:19:59.950Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:59 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@4fbb8d66
+
+2014-12-15T21:19:59.955Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:59 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:19:59.955Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:59 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:19:59.956Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:59 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:19:59.956Z - error: [browsermobproxy] stderr:INFO 12/15 21:19:59 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@269b5c5b
+
+2014-12-15T21:20:07.621Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:07 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:07.621Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:07 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:07.621Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:07 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=9355 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:07.644Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:07 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:20:07.748Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:07 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:07.798Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:07 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:20:07.798Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:07 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@269b5c5b
+
+2014-12-15T21:20:07.803Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:07 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:20:07.803Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:07 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:20:07.804Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:07 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:07.804Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:07 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@4ed25b4f
+
+2014-12-15T21:20:12.451Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:12 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:12.451Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:12 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:12.451Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:12 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:15.865Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:15 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:15.865Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:15 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:15.865Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:15 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:19.028Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:19 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:20:19.134Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:19 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:19.185Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:19 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:20:19.185Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:19 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@4ed25b4f
+
+2014-12-15T21:20:19.190Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:19 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:20:19.190Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:19 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:20:19.191Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:19 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:19.191Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:19 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@3fee8de4
+
+2014-12-15T21:20:25.841Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:25 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:25.841Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:25 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:25.841Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:25 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=9355 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:30.231Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:30 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:20:30.335Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:30 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:30.366Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:30 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:20:30.367Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:30 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@3fee8de4
+
+2014-12-15T21:20:30.374Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:30 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:20:30.374Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:30 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:20:30.375Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:30 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:30.375Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:30 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@7f84a423
+
+2014-12-15T21:20:32.601Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:32 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:32.601Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:32 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:32.602Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:32 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=11299 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:35.483Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:35 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:35.483Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:35 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:35.483Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:35 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=4059 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:37.953Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:37 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:37.953Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:37 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:38.035Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:38 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:20:38.139Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:38 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:38.174Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:38 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:20:38.174Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:38 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@7f84a423
+
+2014-12-15T21:20:38.181Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:38 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:20:38.181Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:38 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:20:38.182Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:38 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:38.182Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:38 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@69b60e5d
+
+2014-12-15T21:20:42.371Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:42 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:42.371Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:42 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:42.372Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:42 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:45.627Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:45 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:45.627Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:45 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Protocol wrong type for socket) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:45.627Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:45 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=6707 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:48.609Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:48 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:48.609Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:48 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Protocol wrong type for socket) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:48.609Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:48 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:48.666Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:48 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:20:48.773Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:48 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:48.807Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:48 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:20:48.807Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:48 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@69b60e5d
+
+2014-12-15T21:20:48.813Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:48 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:20:48.813Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:48 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:20:48.813Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:48 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:48.813Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:48 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@7974ad2a
+
+2014-12-15T21:20:57.889Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:57 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:20:57.890Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:57 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:57.890Z - error: [browsermobproxy] stderr:WARN 12/15 21:20:57 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=2611 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:20:57.953Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:57 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:20:58.056Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:58 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:58.089Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:58 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:20:58.089Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:58 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@7974ad2a
+
+2014-12-15T21:20:58.094Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:58 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:20:58.094Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:58 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:20:58.095Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:58 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:20:58.095Z - error: [browsermobproxy] stderr:INFO 12/15 21:20:58 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@7deffe7a
+
+2014-12-15T21:21:02.124Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:02 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:53692
+
+2014-12-15T21:21:06.141Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:06 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:21:06.142Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:06 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:21:10.380Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:10 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:21:10.380Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:10 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:21:10.381Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:10 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=2847 written=2612 for http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:21:15.208Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:15 n.l.b.p.ProxyServer  - Waited 5 seconds for requests to cease before returning HAR; giving up!
+
+2014-12-15T21:21:15.234Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:15 n.l.b.p.j.u.Threade~ - Stopping Acceptor [SSL: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=53692]]
+
+2014-12-15T21:21:15.339Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:15 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:53692
+
+2014-12-15T21:21:15.340Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:15 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:21:15.341Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:15 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:21:15.446Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:15 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:21:15.501Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:15 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:21:15.501Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:15 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@7deffe7a
+
+2014-12-15T21:21:15.507Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:15 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:21:15.507Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:15 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:21:15.508Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:15 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:21:15.508Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:15 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@7237dd8c
+
+2014-12-15T21:21:21.720Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:21 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:21:21.720Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:21 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:21:26.075Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:26 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:21:26.075Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:26 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:21:26.075Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:26 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=2847 written=2612 for http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:21:32.007Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:32 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:21:32.112Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:32 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:21:32.149Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:32 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:21:32.149Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:32 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@7237dd8c
+
+2014-12-15T21:21:32.155Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:32 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:21:32.155Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:32 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:21:32.156Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:32 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:21:32.156Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:32 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@671b3302
+
+2014-12-15T21:21:34.599Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:34 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:21:34.599Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:34 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:21:43.473Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:43 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:21:43.577Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:43 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:21:43.611Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:43 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:21:43.611Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:43 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@671b3302
+
+2014-12-15T21:21:43.619Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:43 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:21:43.619Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:43 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:21:43.619Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:43 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:21:43.620Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:43 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@3f969532
+
+2014-12-15T21:21:51.335Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:51 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:21:51.335Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:51 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:21:51.336Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:51 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=2611 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:21:51.442Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:51 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:21:51.547Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:51 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:21:51.580Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:51 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:21:51.580Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:51 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@3f969532
+
+2014-12-15T21:21:51.587Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:51 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:21:51.587Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:51 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:21:51.587Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:51 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:21:51.588Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:51 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@737a1249
+
+2014-12-15T21:21:56.992Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:56 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:21:56.993Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:56 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:21:56.995Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:56 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:21:56.995Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:56 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:21:56.995Z - error: [browsermobproxy] stderr:WARN 12/15 21:21:56 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:21:59.696Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:59 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:21:59.802Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:59 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:21:59.839Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:59 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:21:59.839Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:59 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@737a1249
+
+2014-12-15T21:21:59.848Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:59 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:21:59.848Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:59 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:21:59.849Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:59 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:21:59.849Z - error: [browsermobproxy] stderr:INFO 12/15 21:21:59 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@4cde4342
+
+2014-12-15T21:22:04.782Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:04 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:22:04.782Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:04 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:04.782Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:04 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=12003 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:09.699Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:09 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:22:09.699Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:09 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:09.699Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:09 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=9355 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:14.334Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:14 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:22:14.440Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:14 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:22:14.482Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:14 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:22:14.482Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:14 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@4cde4342
+
+2014-12-15T21:22:14.491Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:14 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:22:14.491Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:14 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:22:14.491Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:14 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:22:14.492Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:14 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@45f5e353
+
+2014-12-15T21:22:18.664Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:18 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:22:18.664Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:18 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:18.664Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:18 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:24.991Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:24 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:22:24.991Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:24 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:24.992Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:24 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=2611 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:25.088Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:25 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:22:25.193Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:25 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:22:25.234Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:25 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:22:25.235Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:25 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@45f5e353
+
+2014-12-15T21:22:25.243Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:25 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:22:25.243Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:25 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:22:25.243Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:25 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:22:25.244Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:25 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@13aa55d8
+
+2014-12-15T21:22:30.460Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:30 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:22:30.460Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:30 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:30.460Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:30 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=2611 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:33.148Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:33 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:22:33.148Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:33 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:33.149Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:33 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=2611 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:33.174Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:33 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:22:33.279Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:33 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:22:33.312Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:33 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:22:33.313Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:33 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@13aa55d8
+
+2014-12-15T21:22:33.318Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:33 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:22:33.318Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:33 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:22:33.319Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:33 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:22:33.319Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:33 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@6c0f45d9
+
+2014-12-15T21:22:35.961Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:35 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:22:35.962Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:35 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+WARN 12/15 21:22:35 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:38.532Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:38 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:22:38.532Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:38 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+WARN 12/15 21:22:38 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=2611 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:22:41.217Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:41 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:22:41.320Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:41 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:22:41.355Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:41 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:22:41.355Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:41 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@6c0f45d9
+
+2014-12-15T21:22:41.366Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:41 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:22:41.366Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:41 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:22:41.367Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:41 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:22:41.367Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:41 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@2f0c0f64
+
+2014-12-15T21:22:44.135Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:44 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:55829
+
+2014-12-15T21:22:57.231Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:57 n.l.b.p.ProxyServer  - Waited 5 seconds for requests to cease before returning HAR; giving up!
+
+2014-12-15T21:22:57.265Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:57 n.l.b.p.j.u.Threade~ - Stopping Acceptor [SSL: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=55829]]
+
+2014-12-15T21:22:57.369Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:57 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:55829
+
+2014-12-15T21:22:57.371Z - error: [browsermobproxy] stderr:WARN 12/15 21:22:57 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:22:57.371Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:57 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:22:57.475Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:57 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:22:57.509Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:57 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:22:57.509Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:57 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@2f0c0f64
+
+2014-12-15T21:22:57.517Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:57 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:22:57.517Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:57 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:22:57.518Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:57 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:22:57.518Z - error: [browsermobproxy] stderr:INFO 12/15 21:22:57 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@4999b280
+
+2014-12-15T21:23:04.998Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:04 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:23:05.102Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:05 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:23:05.137Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:05 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:23:05.137Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:05 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@4999b280
+
+2014-12-15T21:23:05.151Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:05 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:23:05.151Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:05 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:23:05.152Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:05 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:23:05.152Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:05 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@7e6171f1
+
+2014-12-15T21:23:17.716Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:17 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:23:17.821Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:17 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:23:17.854Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:17 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:23:17.854Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:17 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@7e6171f1
+
+2014-12-15T21:23:17.860Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:17 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:23:17.864Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:17 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:23:17.864Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:17 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+INFO 12/15 21:23:17 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@1a83d074
+
+2014-12-15T21:23:28.111Z - error: [browsermobproxy] stderr:WARN 12/15 21:23:28 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:23:28.112Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:28 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:23:28.112Z - error: [browsermobproxy] stderr:WARN 12/15 21:23:28 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=9355 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:23:28.179Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:28 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:23:28.281Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:28 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:23:28.317Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:28 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:23:28.317Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:28 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@1a83d074
+
+2014-12-15T21:23:28.323Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:28 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:23:28.323Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:28 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:23:28.323Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:28 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:23:28.324Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:28 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@86a88b6
+
+2014-12-15T21:23:30.408Z - error: [browsermobproxy] stderr:WARN 12/15 21:23:30 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:23:30.408Z - error: [browsermobproxy] stderr:WARN 12/15 21:23:30 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:23:30.409Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:30 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+INFO 12/15 21:23:30 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:23:30.409Z - error: [browsermobproxy] stderr:WARN 12/15 21:23:30 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:23:34.853Z - error: [browsermobproxy] stderr:WARN 12/15 21:23:34 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:23:34.853Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:34 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:23:34.854Z - error: [browsermobproxy] stderr:WARN 12/15 21:23:34 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:23:34.854Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:34 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Protocol wrong type for socket) when requesting http://www.cybercom.com/static/cybercom/img/mobile-menu-lines.png
+
+2014-12-15T21:23:37.041Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:37 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:23:37.144Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:37 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:23:37.178Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:37 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:23:37.178Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:37 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@86a88b6
+
+2014-12-15T21:23:37.183Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:37 n.l.b.p.j.h.HttpSer~ - Version Jetty/0.0.1-SNAPSHOT
+
+2014-12-15T21:23:37.183Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:37 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2014-12-15T21:23:37.183Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:37 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:23:37.184Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:37 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@2f9bdf5f
+
+2014-12-15T21:23:39.317Z - error: [browsermobproxy] stderr:WARN 12/15 21:23:39 n.l.b.p.BrowserMobP~ - IOException while trying to report an HTTP error
+java.io.IOException: closed
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.prepareOutput(HttpOutputStream.java:444)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:413)
+	at net.lightbody.bmp.proxy.jetty.http.HttpOutputStream.write(HttpOutputStream.java:406)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.reportError(BrowserMobProxyHandler.java:312)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.access$200(BrowserMobProxyHandler.java:26)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler$1.reportError(BrowserMobProxyHandler.java:265)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:832)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpClient.execute(BrowserMobHttpClient.java:592)
+	at net.lightbody.bmp.proxy.http.BrowserMobHttpRequest.execute(BrowserMobHttpRequest.java:149)
+	at net.lightbody.bmp.proxy.BrowserMobProxyHandler.proxyPlainTextRequest(BrowserMobProxyHandler.java:269)
+	at net.lightbody.bmp.proxy.selenium.SeleniumProxyHandler.handle(SeleniumProxyHandler.java:185)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1509)
+	at net.lightbody.bmp.proxy.jetty.http.HttpContext.handle(HttpContext.java:1461)
+	at net.lightbody.bmp.proxy.jetty.http.HttpServer.service(HttpServer.java:892)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.service(HttpConnection.java:815)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at net.lightbody.bmp.proxy.jetty.http.HttpConnection.handle(HttpConnection.java:832)
+	at net.lightbody.bmp.proxy.jetty.http.SocketListener.handleConnection(SocketListener.java:245)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at net.lightbody.bmp.proxy.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2014-12-15T21:23:39.317Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:39 n.l.b.p.h.BrowserMo~ - EOFException(java.net.SocketException: Broken pipe) when requesting http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:23:39.317Z - error: [browsermobproxy] stderr:WARN 12/15 21:23:39 n.l.b.p.j.h.HttpCon~ - Invalid length: Content-Length=12799 written=5259 for http://www.cybercom.com/static/bootstrap/img/glyphicons-halflings.png
+
+2014-12-15T21:23:44.162Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:44 n.l.b.p.j.u.Threade~ - Stopping Acceptor ServerSocket[addr=/0.0.0.0,localport=9091]
+
+2014-12-15T21:23:44.267Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:44 n.l.b.p.j.h.SocketL~ - Stopped SocketListener on 0.0.0.0:9091
+
+2014-12-15T21:23:44.300Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:44 n.l.b.p.j.u.Contain~ - Stopped HttpContext[/,/]
+
+2014-12-15T21:23:44.301Z - error: [browsermobproxy] stderr:INFO 12/15 21:23:44 n.l.b.p.j.u.Contain~ - Stopped net.lightbody.bmp.proxy.jetty.jetty.Server@2f9bdf5f
+
+2014-12-15T21:23:44.699Z - info: [browsermobproxy] Stopped proxy process.

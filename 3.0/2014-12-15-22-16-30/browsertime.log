@@ -1,0 +1,182 @@
+2014-12-15T21:16:39.936Z - info: [browsertime] Starting proxy on port 9092, will wait at most 15000 ms
+2014-12-15T21:17:38.682Z - info: [browsertime] Fetching http://www.cybercom.com (1 of 3)
+2014-12-15T21:17:42.648Z - info: [browsertime] Fetching http://www.cybercom.com (2 of 3)
+2014-12-15T21:17:46.485Z - info: [browsertime] Fetching http://www.cybercom.com (3 of 3)
+2014-12-15T21:17:50.272Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com.har
+2014-12-15T21:17:50.273Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-browsertime.json
+2014-12-15T21:17:50.568Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/interim-report-july--september-2014/ (1 of 3)
+2014-12-15T21:17:52.891Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/interim-report-july--september-2014/ (2 of 3)
+2014-12-15T21:17:55.249Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/interim-report-july--september-2014/ (3 of 3)
+2014-12-15T21:17:57.634Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-interim-report-july--september-2014-.har
+2014-12-15T21:17:57.636Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-interim-report-july--september-2014--browsertime.json
+2014-12-15T21:17:57.871Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Corporate-governance/Board/ (1 of 3)
+2014-12-15T21:18:00.662Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Corporate-governance/Board/ (2 of 3)
+2014-12-15T21:18:03.914Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Corporate-governance/Board/ (3 of 3)
+2014-12-15T21:18:06.991Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Corporate-governance-Board-.har
+2014-12-15T21:18:06.992Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Corporate-governance-Board--browsertime.json
+2014-12-15T21:18:07.212Z - info: [browsertime] Fetching http://www.cybercom.com/da/Denmark/ (1 of 3)
+2014-12-15T21:18:09.938Z - info: [browsertime] Fetching http://www.cybercom.com/da/Denmark/ (2 of 3)
+2014-12-15T21:18:12.753Z - info: [browsertime] Fetching http://www.cybercom.com/da/Denmark/ (3 of 3)
+2014-12-15T21:18:15.502Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-da-Denmark-.har
+2014-12-15T21:18:15.503Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-da-Denmark--browsertime.json
+2014-12-15T21:18:15.911Z - info: [browsertime] Fetching http://www.cybercom.com/Legal-notice/Website-terms-and-conditions/ (1 of 3)
+2014-12-15T21:18:18.671Z - info: [browsertime] Fetching http://www.cybercom.com/Legal-notice/Website-terms-and-conditions/ (2 of 3)
+2014-12-15T21:18:21.848Z - info: [browsertime] Fetching http://www.cybercom.com/Legal-notice/Website-terms-and-conditions/ (3 of 3)
+2014-12-15T21:18:24.394Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-Legal-notice-Website-terms-and-conditions-.har
+2014-12-15T21:18:24.395Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-Legal-notice-Website-terms-and-conditions--browsertime.json
+2014-12-15T21:18:24.692Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Financial-information/Subscribe/ (1 of 3)
+2014-12-15T21:18:28.004Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Financial-information/Subscribe/ (2 of 3)
+2014-12-15T21:18:30.812Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Financial-information/Subscribe/ (3 of 3)
+2014-12-15T21:18:33.131Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Financial-information-Subscribe-.har
+2014-12-15T21:18:33.132Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Financial-information-Subscribe--browsertime.json
+2014-12-15T21:18:33.424Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Financial-information/ (1 of 3)
+2014-12-15T21:18:36.257Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Financial-information/ (2 of 3)
+2014-12-15T21:18:39.001Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Financial-information/ (3 of 3)
+2014-12-15T21:18:41.712Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Financial-information-.har
+2014-12-15T21:18:41.713Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Financial-information--browsertime.json
+2014-12-15T21:18:41.910Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/win-by-opening-up-in-the-right-way/ (1 of 3)
+2014-12-15T21:18:44.737Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/win-by-opening-up-in-the-right-way/ (2 of 3)
+2014-12-15T21:18:49.175Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/win-by-opening-up-in-the-right-way/ (3 of 3)
+2014-12-15T21:18:52.189Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Blogs-the-connected-world-win-by-opening-up-in-the-right-way-.har
+2014-12-15T21:18:52.190Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Blogs-the-connected-world-win-by-opening-up-in-the-right-way--browsertime.json
+2014-12-15T21:18:57.603Z - info: [browsertime] Fetching http://www.cybercom.com/pl/Poland/ (1 of 3)
+2014-12-15T21:19:00.927Z - info: [browsertime] Fetching http://www.cybercom.com/pl/Poland/ (2 of 3)
+2014-12-15T21:19:03.607Z - info: [browsertime] Fetching http://www.cybercom.com/pl/Poland/ (3 of 3)
+2014-12-15T21:19:06.230Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-pl-Poland-.har
+2014-12-15T21:19:06.231Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-pl-Poland--browsertime.json
+2014-12-15T21:19:06.513Z - info: [browsertime] Fetching http://www.cybercom.com/Legal-notice/Privacy-policy/ (1 of 3)
+2014-12-15T21:19:09.264Z - info: [browsertime] Fetching http://www.cybercom.com/Legal-notice/Privacy-policy/ (2 of 3)
+2014-12-15T21:19:11.545Z - info: [browsertime] Fetching http://www.cybercom.com/Legal-notice/Privacy-policy/ (3 of 3)
+2014-12-15T21:19:13.952Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-Legal-notice-Privacy-policy-.har
+2014-12-15T21:19:13.953Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-Legal-notice-Privacy-policy--browsertime.json
+2014-12-15T21:19:14.237Z - info: [browsertime] Fetching http://www.cybercom.com/What-we-do/Connectivity-Management/Mobile-Network-Quality/Customer-Experience-Management/ (1 of 3)
+2014-12-15T21:19:17.561Z - info: [browsertime] Fetching http://www.cybercom.com/What-we-do/Connectivity-Management/Mobile-Network-Quality/Customer-Experience-Management/ (2 of 3)
+2014-12-15T21:19:20.191Z - info: [browsertime] Fetching http://www.cybercom.com/What-we-do/Connectivity-Management/Mobile-Network-Quality/Customer-Experience-Management/ (3 of 3)
+2014-12-15T21:19:22.752Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-What-we-do-Connectivity-Management-Mobile-Network-Quality-Customer-Experience-Management-.har
+2014-12-15T21:19:22.753Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-What-we-do-Connectivity-Management-Mobile-Network-Quality-Customer-Experience-Management--browsertime.json
+2014-12-15T21:19:23.038Z - info: [browsertime] Fetching http://www.cybercom.com/Cases-and-clients/SF-BIO-app/ (1 of 3)
+2014-12-15T21:19:25.622Z - info: [browsertime] Fetching http://www.cybercom.com/Cases-and-clients/SF-BIO-app/ (2 of 3)
+2014-12-15T21:19:28.613Z - info: [browsertime] Fetching http://www.cybercom.com/Cases-and-clients/SF-BIO-app/ (3 of 3)
+2014-12-15T21:19:31.267Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-Cases-and-clients-SF-BIO-app-.har
+2014-12-15T21:19:31.268Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-Cases-and-clients-SF-BIO-app--browsertime.json
+2014-12-15T21:19:31.571Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/About-the-Group/ (1 of 3)
+2014-12-15T21:19:34.229Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/About-the-Group/ (2 of 3)
+2014-12-15T21:19:37.595Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/About-the-Group/ (3 of 3)
+2014-12-15T21:19:40.170Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-About-the-Group-.har
+2014-12-15T21:19:40.171Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-About-the-Group--browsertime.json
+2014-12-15T21:19:40.451Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Cybercom-visited-UN/ (1 of 3)
+2014-12-15T21:19:43.333Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Cybercom-visited-UN/ (2 of 3)
+2014-12-15T21:19:46.356Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Cybercom-visited-UN/ (3 of 3)
+2014-12-15T21:19:49.680Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Press-Media-Cybercom-visited-UN-.har
+2014-12-15T21:19:49.681Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Press-Media-Cybercom-visited-UN--browsertime.json
+2014-12-15T21:19:50.165Z - info: [browsertime] Fetching http://www.cybercom.com/Legal-notice/Cookies/ (1 of 3)
+2014-12-15T21:19:53.227Z - info: [browsertime] Fetching http://www.cybercom.com/Legal-notice/Cookies/ (2 of 3)
+2014-12-15T21:19:56.479Z - info: [browsertime] Fetching http://www.cybercom.com/Legal-notice/Cookies/ (3 of 3)
+2014-12-15T21:19:59.684Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-Legal-notice-Cookies-.har
+2014-12-15T21:19:59.685Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-Legal-notice-Cookies--browsertime.json
+2014-12-15T21:19:59.962Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-provides-digital-signature-services-to-swedish-tax-agency/ (1 of 3)
+2014-12-15T21:20:02.179Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-provides-digital-signature-services-to-swedish-tax-agency/ (2 of 3)
+2014-12-15T21:20:04.484Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-provides-digital-signature-services-to-swedish-tax-agency/ (3 of 3)
+2014-12-15T21:20:07.519Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-cybercom-provides-digital-signature-services-to-swedish-tax-agency-.har
+2014-12-15T21:20:07.520Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-cybercom-provides-digital-signature-services-to-swedish-tax-agency--browsertime.json
+2014-12-15T21:20:07.809Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-launches-upphandlingskollen/ (1 of 3)
+2014-12-15T21:20:12.034Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-launches-upphandlingskollen/ (2 of 3)
+2014-12-15T21:20:15.806Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/cybercom-launches-upphandlingskollen/ (3 of 3)
+2014-12-15T21:20:18.900Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-cybercom-launches-upphandlingskollen-.har
+2014-12-15T21:20:18.901Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-cybercom-launches-upphandlingskollen--browsertime.json
+2014-12-15T21:20:19.196Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/About-the-Group/seasons-greetings-2014/ (1 of 3)
+2014-12-15T21:20:22.196Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/About-the-Group/seasons-greetings-2014/ (2 of 3)
+2014-12-15T21:20:25.613Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/About-the-Group/seasons-greetings-2014/ (3 of 3)
+2014-12-15T21:20:30.098Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-About-the-Group-seasons-greetings-2014-.har
+2014-12-15T21:20:30.099Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-About-the-Group-seasons-greetings-2014--browsertime.json
+2014-12-15T21:20:30.380Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Events-and-seminars/ (1 of 3)
+2014-12-15T21:20:32.581Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Events-and-seminars/ (2 of 3)
+2014-12-15T21:20:35.040Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Events-and-seminars/ (3 of 3)
+2014-12-15T21:20:37.493Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Events-and-seminars-.har
+2014-12-15T21:20:37.494Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Events-and-seminars--browsertime.json
+2014-12-15T21:20:38.187Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Contact/ (1 of 3)
+2014-12-15T21:20:42.164Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Contact/ (2 of 3)
+2014-12-15T21:20:45.193Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Contact/ (3 of 3)
+2014-12-15T21:20:48.532Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Contact-.har
+2014-12-15T21:20:48.533Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Contact--browsertime.json
+2014-12-15T21:20:48.819Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/visit-cybercom-at-cairo-ict-2014/ (1 of 3)
+2014-12-15T21:20:51.880Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/visit-cybercom-at-cairo-ict-2014/ (2 of 3)
+2014-12-15T21:20:54.174Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/visit-cybercom-at-cairo-ict-2014/ (3 of 3)
+2014-12-15T21:20:57.832Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-visit-cybercom-at-cairo-ict-2014-.har
+2014-12-15T21:20:57.833Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-visit-cybercom-at-cairo-ict-2014--browsertime.json
+2014-12-15T21:20:58.101Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/virtual-reality-in-industry/ (1 of 3)
+2014-12-15T21:21:02.193Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/virtual-reality-in-industry/ (2 of 3)
+2014-12-15T21:21:05.860Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/the-connected-world/virtual-reality-in-industry/ (3 of 3)
+2014-12-15T21:21:10.140Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Blogs-the-connected-world-virtual-reality-in-industry-.har
+2014-12-15T21:21:10.140Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Blogs-the-connected-world-virtual-reality-in-industry--browsertime.json
+2014-12-15T21:21:15.513Z - info: [browsertime] Fetching http://www.cybercom.com/sv/ (1 of 3)
+2014-12-15T21:21:21.341Z - info: [browsertime] Fetching http://www.cybercom.com/sv/ (2 of 3)
+2014-12-15T21:21:26.010Z - info: [browsertime] Fetching http://www.cybercom.com/sv/ (3 of 3)
+2014-12-15T21:21:31.664Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-sv-.har
+2014-12-15T21:21:31.665Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-sv--browsertime.json
+2014-12-15T21:21:32.161Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/the-population-register-centre-selected-cybercom/ (1 of 3)
+2014-12-15T21:21:34.430Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/the-population-register-centre-selected-cybercom/ (2 of 3)
+2014-12-15T21:21:40.596Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/the-population-register-centre-selected-cybercom/ (3 of 3)
+2014-12-15T21:21:43.349Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-the-population-register-centre-selected-cybercom-.har
+2014-12-15T21:21:43.350Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-the-population-register-centre-selected-cybercom--browsertime.json
+2014-12-15T21:21:43.625Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/ (1 of 3)
+2014-12-15T21:21:46.461Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/ (2 of 3)
+2014-12-15T21:21:48.864Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/ (3 of 3)
+2014-12-15T21:21:51.312Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Blogs-.har
+2014-12-15T21:21:51.313Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Blogs--browsertime.json
+2014-12-15T21:21:51.593Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/ (1 of 3)
+2014-12-15T21:21:54.133Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/ (2 of 3)
+2014-12-15T21:21:56.931Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/ (3 of 3)
+2014-12-15T21:21:59.569Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Press-Media-.har
+2014-12-15T21:21:59.569Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Press-Media--browsertime.json
+2014-12-15T21:21:59.855Z - info: [browsertime] Fetching http://www.cybercom.com/Cases-and-clients/ (1 of 3)
+2014-12-15T21:22:04.751Z - info: [browsertime] Fetching http://www.cybercom.com/Cases-and-clients/ (2 of 3)
+2014-12-15T21:22:09.671Z - info: [browsertime] Fetching http://www.cybercom.com/Cases-and-clients/ (3 of 3)
+2014-12-15T21:22:14.186Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-Cases-and-clients-.har
+2014-12-15T21:22:14.187Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-Cases-and-clients--browsertime.json
+2014-12-15T21:22:14.497Z - info: [browsertime] Fetching http://www.cybercom.com/Cases-and-clients/Verisure-internet-of-things/ (1 of 3)
+2014-12-15T21:22:18.570Z - info: [browsertime] Fetching http://www.cybercom.com/Cases-and-clients/Verisure-internet-of-things/ (2 of 3)
+2014-12-15T21:22:21.820Z - info: [browsertime] Fetching http://www.cybercom.com/Cases-and-clients/Verisure-internet-of-things/ (3 of 3)
+2014-12-15T21:22:24.962Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-Cases-and-clients-Verisure-internet-of-things-.har
+2014-12-15T21:22:24.962Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-Cases-and-clients-Verisure-internet-of-things--browsertime.json
+2014-12-15T21:22:25.248Z - info: [browsertime] Fetching http://www.cybercom.com/What-we-do/ (1 of 3)
+2014-12-15T21:22:27.690Z - info: [browsertime] Fetching http://www.cybercom.com/What-we-do/ (2 of 3)
+2014-12-15T21:22:30.327Z - info: [browsertime] Fetching http://www.cybercom.com/What-we-do/ (3 of 3)
+2014-12-15T21:22:33.050Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-What-we-do-.har
+2014-12-15T21:22:33.051Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-What-we-do--browsertime.json
+2014-12-15T21:22:33.324Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/About-the-Group/Cybercom-the-movie/ (1 of 3)
+2014-12-15T21:22:35.860Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/About-the-Group/Cybercom-the-movie/ (2 of 3)
+2014-12-15T21:22:38.486Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/About-the-Group/Cybercom-the-movie/ (3 of 3)
+2014-12-15T21:22:41.184Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-About-the-Group-Cybercom-the-movie-.har
+2014-12-15T21:22:41.185Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-About-the-Group-Cybercom-the-movie--browsertime.json
+2014-12-15T21:22:41.373Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/ivars-perspective-on-enterprise-java/introduction/ (1 of 3)
+2014-12-15T21:22:44.309Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/ivars-perspective-on-enterprise-java/introduction/ (2 of 3)
+2014-12-15T21:22:47.107Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Blogs/ivars-perspective-on-enterprise-java/introduction/ (3 of 3)
+2014-12-15T21:22:52.165Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Blogs-ivars-perspective-on-enterprise-java-introduction-.har
+2014-12-15T21:22:52.166Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Blogs-ivars-perspective-on-enterprise-java-introduction--browsertime.json
+2014-12-15T21:22:57.523Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Corporate-governance/ (1 of 3)
+2014-12-15T21:22:59.853Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Corporate-governance/ (2 of 3)
+2014-12-15T21:23:02.448Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Corporate-governance/ (3 of 3)
+2014-12-15T21:23:04.966Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Corporate-governance-.har
+2014-12-15T21:23:04.967Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Corporate-governance--browsertime.json
+2014-12-15T21:23:05.157Z - info: [browsertime] Fetching http://www.cybercom.com/fi/Suomi/ (1 of 3)
+2014-12-15T21:23:09.288Z - info: [browsertime] Fetching http://www.cybercom.com/fi/Suomi/ (2 of 3)
+2014-12-15T21:23:13.466Z - info: [browsertime] Fetching http://www.cybercom.com/fi/Suomi/ (3 of 3)
+2014-12-15T21:23:17.592Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-fi-Suomi-.har
+2014-12-15T21:23:17.592Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-fi-Suomi--browsertime.json
+2014-12-15T21:23:17.869Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Financial-information/The-Share/ (1 of 3)
+2014-12-15T21:23:21.337Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Financial-information/The-Share/ (2 of 3)
+2014-12-15T21:23:24.509Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Financial-information/The-Share/ (3 of 3)
+2014-12-15T21:23:28.047Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Financial-information-The-Share-.har
+2014-12-15T21:23:28.048Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Financial-information-The-Share--browsertime.json
+2014-12-15T21:23:28.328Z - info: [browsertime] Fetching http://www.cybercom.com/search/ (1 of 3)
+2014-12-15T21:23:30.337Z - info: [browsertime] Fetching http://www.cybercom.com/search/ (2 of 3)
+2014-12-15T21:23:34.777Z - info: [browsertime] Fetching http://www.cybercom.com/search/ (3 of 3)
+2014-12-15T21:23:36.923Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-search-.har
+2014-12-15T21:23:36.923Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-search--browsertime.json
+2014-12-15T21:23:37.188Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/ (1 of 3)
+2014-12-15T21:23:39.276Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/ (2 of 3)
+2014-12-15T21:23:41.918Z - info: [browsertime] Fetching http://www.cybercom.com/About-Cybercom/Press-Media/Press-releases/ (3 of 3)
+2014-12-15T21:23:44.042Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/har/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases-.har
+2014-12-15T21:23:44.042Z - info: [browsertime] Storing /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-15-22-16-30/data/browsertime/chrome/www.cybercom.com-About-Cybercom-Press-Media-Press-releases--browsertime.json
+2014-12-15T21:23:44.699Z - info: [browsertime] Stopping proxy
