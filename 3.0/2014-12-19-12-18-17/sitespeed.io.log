@@ -1,0 +1,33 @@
+2014-12-19T11:18:18.315Z - info: [sitespeed] OS: darwin 14.0.0 sitespeed:3.0.1  phantomJs:1.9.8 java:java version "1.7.0_71" browsertime:0.8.19
+2014-12-19T11:18:18.371Z - info: [sitespeed] Will crawl from start point http://www.cybercom.com with crawl depth 1
+2014-12-19T11:18:24.661Z - info: [sitespeed] Will analyze 5 pages
+2014-12-19T11:18:24.662Z - info: [sitespeed] Running YSlow for http://www.cybercom.com
+2014-12-19T11:18:24.665Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/Cases-and-clients/Verisure-internet-of-things/
+2014-12-19T11:18:24.671Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Corporate-governance/Board/
+2014-12-19T11:18:24.673Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/About-Cybercom/Press-Media/Cybercom-visited-UN/
+2014-12-19T11:18:24.679Z - info: [sitespeed] Running YSlow for http://www.cybercom.com/What-we-do/Connectivity-Management/Mobile-Network-Quality/Customer-Experience-Management/
+2014-12-19T11:18:35.888Z - info: [sitespeed] Running Google Page Speed Insights for http://www.cybercom.com
+2014-12-19T11:18:35.915Z - info: [sitespeed] Running Google Page Speed Insights for http://www.cybercom.com/Cases-and-clients/Verisure-internet-of-things/
+2014-12-19T11:18:35.917Z - info: [sitespeed] Running Google Page Speed Insights for http://www.cybercom.com/About-Cybercom/Corporate-governance/Board/
+2014-12-19T11:18:35.919Z - info: [sitespeed] Running Google Page Speed Insights for http://www.cybercom.com/About-Cybercom/Press-Media/Cybercom-visited-UN/
+2014-12-19T11:18:35.920Z - info: [sitespeed] Running Google Page Speed Insights for http://www.cybercom.com/What-we-do/Connectivity-Management/Mobile-Network-Quality/Customer-Experience-Management/
+2014-12-19T11:18:40.203Z - info: [sitespeed] Running WebPageTest http://www.cybercom.com pollResults=10, timeout=600, firstViewOnly=false, runs=3, private=true, aftRenderingTime=true, location=Dulles:Chrome, video=true
+2014-12-19T11:18:40.206Z - info: [sitespeed] Running WebPageTest http://www.cybercom.com/Cases-and-clients/Verisure-internet-of-things/ pollResults=10, timeout=600, firstViewOnly=false, runs=3, private=true, aftRenderingTime=true, location=Dulles:Chrome, video=true
+2014-12-19T11:18:40.206Z - info: [sitespeed] Running WebPageTest http://www.cybercom.com/About-Cybercom/Corporate-governance/Board/ pollResults=10, timeout=600, firstViewOnly=false, runs=3, private=true, aftRenderingTime=true, location=Dulles:Chrome, video=true
+2014-12-19T11:18:40.207Z - info: [sitespeed] Running WebPageTest http://www.cybercom.com/About-Cybercom/Press-Media/Cybercom-visited-UN/ pollResults=10, timeout=600, firstViewOnly=false, runs=3, private=true, aftRenderingTime=true, location=Dulles:Chrome, video=true
+2014-12-19T11:18:40.208Z - info: [sitespeed] Running WebPageTest http://www.cybercom.com/What-we-do/Connectivity-Management/Mobile-Network-Quality/Customer-Experience-Management/ pollResults=10, timeout=600, firstViewOnly=false, runs=3, private=true, aftRenderingTime=true, location=Dulles:Chrome, video=true
+2014-12-19T11:19:44.144Z - info: [sitespeed] Done analyzing urls
+2014-12-19T11:19:44.197Z - info: [sitespeed] Wrote file domains.html
+2014-12-19T11:19:44.197Z - info: [sitespeed] Wrote file assets.html
+2014-12-19T11:19:44.197Z - info: [sitespeed] Wrote file pages.html
+2014-12-19T11:19:44.197Z - info: [sitespeed] Wrote file errors.html
+2014-12-19T11:19:44.198Z - info: [sitespeed] Wrote file hotlist.html
+2014-12-19T11:19:44.198Z - info: [sitespeed] Wrote file rules.html
+2014-12-19T11:19:44.198Z - info: [sitespeed] Wrote file detailed-site-summary.html
+2014-12-19T11:19:44.198Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Press-Media-Cybercom-visited-UN-.html
+2014-12-19T11:19:44.198Z - info: [sitespeed] Wrote file index.html
+2014-12-19T11:19:44.198Z - info: [sitespeed] Wrote file www.cybercom.com.html
+2014-12-19T11:19:44.199Z - info: [sitespeed] Wrote file www.cybercom.com-What-we-do-Connectivity-Management-Mobile-Network-Quality-Customer-Experience-Management-.html
+2014-12-19T11:19:44.199Z - info: [sitespeed] Wrote file www.cybercom.com-Cases-and-clients-Verisure-internet-of-things-.html
+2014-12-19T11:19:44.199Z - info: [sitespeed] Wrote file www.cybercom.com-About-Cybercom-Corporate-governance-Board-.html
+2014-12-19T11:19:44.206Z - info: [sitespeed] Wrote results to /Users/peter/git/3.0-wip/sitespeed-result/www.cybercom.com/2014-12-19-12-18-17
