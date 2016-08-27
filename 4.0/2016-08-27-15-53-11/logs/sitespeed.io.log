@@ -1,0 +1,13 @@
+Versions OS: darwin 15.6.0 nodejs: v4.4.5 sitespeed.io: 4.0.0-alpha.5 browsertime: 1.0.0-beta.1 coach: 0.24.5
+Starting chrome for analysing https://en.wikipedia.org/wiki/Main_Page 3 time(s)
+Start tsproxy:/Users/peter/git/sitespeed.io/node_modules/browsertime/vendor/tsproxy.py --rtt 28 --inkbps 5000 --outkbps 1000 -p 1080
+Testing url https://en.wikipedia.org/wiki/Main_Page run 1
+Testing url https://en.wikipedia.org/wiki/Main_Page run 2
+Testing url https://en.wikipedia.org/wiki/Main_Page run 3
+Starting chrome for analysing https://en.wikipedia.org/wiki/Barack_Obama 3 time(s)
+Start tsproxy:/Users/peter/git/sitespeed.io/node_modules/browsertime/vendor/tsproxy.py --rtt 28 --inkbps 5000 --outkbps 1000 -p 1080
+Testing url https://en.wikipedia.org/wiki/Barack_Obama run 1
+Testing url https://en.wikipedia.org/wiki/Barack_Obama run 2
+Testing url https://en.wikipedia.org/wiki/Barack_Obama run 3
+Render HTML for 2 page(s) 
+HTML stored in /Users/peter/git/sitespeed.io/sitespeed-result/en.wikipedia.org/2016-08-27-15-53-11
