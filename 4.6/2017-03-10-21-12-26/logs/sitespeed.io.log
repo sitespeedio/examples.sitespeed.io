@@ -1,0 +1,17 @@
+Versions OS: linux 4.9.12-moby nodejs: v6.9.1 sitespeed.io: 4.6.0 browsertime: 1.0.0-beta.30 coach: 0.31.0
+Starting chrome for analysing https://en.wikipedia.org/wiki/Main_Page 3 time(s)
+sudo tc qdisc add dev eth0 root netem delay 28ms loss 0% rate 5000kbps
+Testing url https://en.wikipedia.org/wiki/Main_Page run 1
+Testing url https://en.wikipedia.org/wiki/Main_Page run 2
+Testing url https://en.wikipedia.org/wiki/Main_Page run 3
+30 requests, 320.40 kb, firstPaint: 778ms (±149.94ms), firstVisualChange: 828ms (±155.36ms), DOMContentLoaded: 687ms (±142.73ms), Load: 1.54s (±140.48ms), speedIndex: 834 (±154.55), lastVisualChange: 1.11s (±140.10ms), rumSpeedIndex: 821 (±145.90) (3 runs)
+sudo tc qdisc del dev eth0 root
+Starting chrome for analysing https://en.wikipedia.org/wiki/Barack_Obama 3 time(s)
+sudo tc qdisc add dev eth0 root netem delay 28ms loss 0% rate 5000kbps
+Testing url https://en.wikipedia.org/wiki/Barack_Obama run 1
+Testing url https://en.wikipedia.org/wiki/Barack_Obama run 2
+Testing url https://en.wikipedia.org/wiki/Barack_Obama run 3
+94 requests, 1321.67 kb, firstPaint: 1.60s (±55.64ms), firstVisualChange: 1.66s (±51.94ms), DOMContentLoaded: 1.17s (±50.50ms), Load: 2.59s (±51.92ms), speedIndex: 1673 (±47.44), lastVisualChange: 1.89s (±45.14ms), rumSpeedIndex: 1654 (±36.95) (3 runs)
+sudo tc qdisc del dev eth0 root
+Render HTML for 2 page(s) 
+HTML stored in /sitespeed.io/sitespeed-result/en.wikipedia.org/2017-03-10-21-12-26
