@@ -1,0 +1,13 @@
+[2017-04-24 04:44:04] INFO: [sitespeedio] Versions OS: linux 4.9.13-moby nodejs: v6.9.1 sitespeed.io: 5.0.0 browsertime: 1.1.1 coach: 0.34.0
+[2017-04-24 04:44:04] INFO: [sitespeedio.plugin.browsertime] Starting chrome for analysing https://en.wikipedia.org/wiki/Main_Page 3 time(s)
+[2017-04-24 04:44:04] INFO: [root] Testing url https://en.wikipedia.org/wiki/Main_Page run 1
+[2017-04-24 04:44:17] INFO: [root] Testing url https://en.wikipedia.org/wiki/Main_Page run 2
+[2017-04-24 04:44:28] INFO: [root] Testing url https://en.wikipedia.org/wiki/Main_Page run 3
+[2017-04-24 04:44:39] INFO: [root] 29 requests, 316.36 kb, backEndTime: 315ms (±20.63ms), firstPaint: 540ms (±39.16ms), firstVisualChange: 611ms (±32.18ms), DOMContentLoaded: 435ms (±41.48ms), Load: 1.02s (±78.64ms), speedIndex: 618 (±36.42), visualComplete85: 617ms (±36.11ms), lastVisualChange: 761ms (±108.13ms), rumSpeedIndex: 559 (±51.21) (3 runs)
+[2017-04-24 04:44:40] INFO: [sitespeedio.plugin.browsertime] Starting chrome for analysing https://en.wikipedia.org/wiki/Barack_Obama 3 time(s)
+[2017-04-24 04:44:40] INFO: [root] Testing url https://en.wikipedia.org/wiki/Barack_Obama run 1
+[2017-04-24 04:44:52] INFO: [root] Testing url https://en.wikipedia.org/wiki/Barack_Obama run 2
+[2017-04-24 04:45:08] INFO: [root] Testing url https://en.wikipedia.org/wiki/Barack_Obama run 3
+[2017-04-24 04:45:20] INFO: [root] 91 requests, 1297.21 kb, backEndTime: 343ms (±38.81ms), firstPaint: 987ms (±96.44ms), firstVisualChange: 1.04s (±98.97ms), DOMContentLoaded: 1.21s (±57.43ms), Load: 1.85s (±221.54ms), speedIndex: 1085 (±94.78), visualComplete85: 1.22s (±44.48ms), lastVisualChange: 1.30s (±83.96ms), rumSpeedIndex: 1025 (±107.56) (3 runs)
+[2017-04-24 04:45:21] INFO: [sitespeedio.plugin.html] Render HTML for 2 page(s) 
+[2017-04-24 04:45:23] INFO: [sitespeedio.plugin.html] HTML stored in /sitespeed.io/sitespeed-result/en.wikipedia.org/2017-04-24-04-44-04
