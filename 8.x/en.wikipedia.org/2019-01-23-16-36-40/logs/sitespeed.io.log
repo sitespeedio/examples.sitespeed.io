@@ -1,0 +1,24 @@
+[2019-01-23 16:36:40] INFO: [sitespeedio] Versions OS: linux 4.9.125-linuxkit nodejs: v10.13.0 sitespeed.io: 8.0.3 browsertime: 4.0.2 coach: 3.1.1
+[2019-01-23 16:36:41] INFO: [browsertime] Running tests using Chrome - 3 iteration(s)
+[2019-01-23 16:36:42] INFO: [browsertime.command.measure] Testing url https://en.wikipedia.org/wiki/Main_Page iteration 1
+[2019-01-23 16:36:52] INFO: [browsertime] https://en.wikipedia.org/wiki/Main_Page BackEndTime: 179 DomInteractiveTime: 363 DomContentLoadedTime: 363 FirstPaint: 512 PageLoadTime: 855
+[2019-01-23 16:36:52] INFO: [browsertime] VisualMetrics FirstVisualChange: 533 SpeedIndex: 540 PerceptualSpeedIndex: 541 LastVisualChange: 867
+[2019-01-23 16:36:53] INFO: [browsertime.command.measure] Testing url https://en.wikipedia.org/wiki/Main_Page iteration 2
+[2019-01-23 16:37:04] INFO: [browsertime] https://en.wikipedia.org/wiki/Main_Page BackEndTime: 159 DomInteractiveTime: 352 DomContentLoadedTime: 352 FirstPaint: 502 PageLoadTime: 838
+[2019-01-23 16:37:04] INFO: [browsertime] VisualMetrics FirstVisualChange: 500 SpeedIndex: 506 PerceptualSpeedIndex: 508 LastVisualChange: 767
+[2019-01-23 16:37:04] INFO: [browsertime.command.measure] Testing url https://en.wikipedia.org/wiki/Main_Page iteration 3
+[2019-01-23 16:37:15] INFO: [browsertime] https://en.wikipedia.org/wiki/Main_Page BackEndTime: 168 DomInteractiveTime: 277 DomContentLoadedTime: 277 FirstPaint: 426 PageLoadTime: 980
+[2019-01-23 16:37:15] INFO: [browsertime] VisualMetrics FirstVisualChange: 433 SpeedIndex: 435 PerceptualSpeedIndex: 435 LastVisualChange: 500
+[2019-01-23 16:37:15] INFO: [browsertime] https://en.wikipedia.org/wiki/Main_Page 31 requests, 346.28 kb, backEndTime: 169ms (±4.72ms), firstPaint: 480ms (±22.17ms), firstVisualChange: 489ms (±24.02ms), DOMContentLoaded: 331ms (±22.06ms), Load: 891ms (±36.55ms), speedIndex: 494 (±25.26), visualComplete85: 489ms (±24.02ms), lastVisualChange: 711ms (±89.44ms), rumSpeedIndex: 505 (±28.76) (3 runs)
+[2019-01-23 16:37:15] INFO: [browsertime] Running tests using Chrome - 3 iteration(s)
+[2019-01-23 16:37:16] INFO: [browsertime.command.measure] Testing url https://en.wikipedia.org/wiki/Barack_Obama iteration 1
+[2019-01-23 16:37:30] INFO: [browsertime] https://en.wikipedia.org/wiki/Barack_Obama BackEndTime: 173 DomInteractiveTime: 1580 DomContentLoadedTime: 1581 FirstPaint: 1064 PageLoadTime: 2660
+[2019-01-23 16:37:30] INFO: [browsertime] VisualMetrics FirstVisualChange: 1100 SpeedIndex: 1120 PerceptualSpeedIndex: 1133 LastVisualChange: 1467
+[2019-01-23 16:37:31] INFO: [browsertime.command.measure] Testing url https://en.wikipedia.org/wiki/Barack_Obama iteration 2
+[2019-01-23 16:37:45] INFO: [browsertime] https://en.wikipedia.org/wiki/Barack_Obama BackEndTime: 156 DomInteractiveTime: 1474 DomContentLoadedTime: 1475 FirstPaint: 1102 PageLoadTime: 2968
+[2019-01-23 16:37:45] INFO: [browsertime] VisualMetrics FirstVisualChange: 1100 SpeedIndex: 1142 PerceptualSpeedIndex: 1142 LastVisualChange: 1467
+[2019-01-23 16:37:46] INFO: [browsertime.command.measure] Testing url https://en.wikipedia.org/wiki/Barack_Obama iteration 3
+[2019-01-23 16:38:00] INFO: [browsertime] https://en.wikipedia.org/wiki/Barack_Obama BackEndTime: 163 DomInteractiveTime: 1622 DomContentLoadedTime: 1629 FirstPaint: 1071 PageLoadTime: 2753
+[2019-01-23 16:38:00] INFO: [browsertime] VisualMetrics FirstVisualChange: 1067 SpeedIndex: 1110 PerceptualSpeedIndex: 1118 LastVisualChange: 1500
+[2019-01-23 16:38:01] INFO: [browsertime] https://en.wikipedia.org/wiki/Barack_Obama 107 requests, 1358.06 kb, backEndTime: 164ms (±4.03ms), firstPaint: 1.08s (±9.53ms), firstVisualChange: 1.09s (±8.98ms), DOMContentLoaded: 1.56s (±37.15ms), Load: 2.79s (±74.47ms), speedIndex: 1124 (±7.72), visualComplete85: 1.14s (±24.02ms), lastVisualChange: 1.48s (±8.98ms), rumSpeedIndex: 1080 (±10.61) (3 runs)
+[2019-01-23 16:38:02] INFO: [sitespeedio.plugin.html] HTML stored in /sitespeed.io/sitespeed-result/en.wikipedia.org/2019-01-23-16-36-40
